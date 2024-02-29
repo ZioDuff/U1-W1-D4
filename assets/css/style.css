@@ -3,6 +3,8 @@ body {
     width: 100%;
     height: 100vh;
     background-image: url(sfondo.png);
+    font-family: poppins
+    ;
 }
 /* HEADER */
  header div{
@@ -45,7 +47,7 @@ header div li a {
     width: 70%;
     margin: 0 auto;
     background-color: whitesmoke;
-    height: 1000px;
+    height: 3000px;
 padding: 50px 25px 0;
 }
 /* ELEMENTI NEL MAIN - ARTICLE */
@@ -100,6 +102,10 @@ main div h1 {
 #paragrafo-3{
     margin-top: 20px;
 }
+/* TABELLE */
+#box-tabella{
+    margin-top: 30px;
+}
 #tabella {
     border-bottom: 2px solid blue;
     width: 100%;
@@ -113,10 +119,26 @@ main div h1 {
     background-color: blue;
     color: white;
 }
+#paragrafo-4{
+    margin-top: 30px;
+}
+#iframe{
+    width: auto;
+    margin-top: 25px;
+    border-radius: 2rem;
+    height: 15rem;
+}
+/*FORM */
+#box-novità{
+    background-color: gray;
+    margin-top: 30px;
+    height: 15rem;
+    text-align: center;
+}
+#box-novità h3 {
+padding: 20px 0 40px;
+}
 
-/* TABELLE */
-
-/* FORM */
 
 /* ELEMENTI NELL' ASIDE */
 
