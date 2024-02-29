@@ -16,10 +16,9 @@
     <link rel="stylesheet" href="assets/css/font-awesome.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+    </style>
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
@@ -37,8 +36,8 @@
       </div>
     </header>
     <main>
-      <article>
-        <div id="box">
+      <div id="box">
+        <article>
           <h1>
             come creare un <br />
             template per i post
@@ -63,14 +62,16 @@
           </p>
           <div id="prima-lista">
             <ul>
-              <li>contenuti di intestazione del tag &lt;header&gt;</li>
               <li>
-                contenuti centrali variabili del tag &lt;main&gt;(corpo
-                principale)
+                contenuti di intestazione del tag <span> &lt;header&gt;</span>
+              </li>
+              <li>
+                contenuti centrali variabili del tag
+                <span> &lt;main&gt;</span>(corpo principale)
               </li>
               <li>
                 contenuti di fine pagina comuni,da inserire nel tag
-                &lt;footer&gt;
+                <span> &lt;footer&gt;</span>
               </li>
             </ul>
           </div>
@@ -104,7 +105,7 @@
               </caption>
               <tr id="tr1">
                 <td>Colonna 1</td>
-                <td>Colonna 2</td>
+                <td id="column-2">Colonna 2</td>
                 <td>Colonna 2</td>
               </tr>
               <tr>
@@ -112,7 +113,7 @@
                 <td>Dato 1,1</td>
                 <td>Dato 1,2</td>
               </tr>
-              <tr>
+              <tr class="tr2-4">
                 <td>Dato 2,1</td>
                 <td>Dato 2,2</td>
                 <td>Dato 2,2</td>
@@ -122,7 +123,7 @@
                 <td>Dato 3,2</td>
                 <td>Dato 3,2</td>
               </tr>
-              <tr>
+              <tr class="tr2-4">
                 <td>Dato 3,1</td>
                 <td>Dato 3,2</td>
                 <td>Dato 3,2</td>
@@ -134,6 +135,7 @@
               </tr>
             </table>
           </div>
+
           <p id="paragrafo-4">
             Un test di validazione potra essere fatto tramite il
             <a href="#">tool online</a>dedicato allo scopo. una volta
@@ -152,6 +154,8 @@
               allowfullscreen
             ></iframe>
           </div>
+        </article>
+        <aside>
           <div id="box-novità">
             <h3>novità</h3>
             <p>
@@ -161,8 +165,8 @@
             <label for="email"></label>
             <input type="email" placeholder="inserisci la tua email" />
           </div>
-        </div>
-      </article>
+        </aside>
+      </div>
     </main>
   </body>
 </html>

@@ -1,9 +1,9 @@
 /* IMPOSTAZIONI GENERALI */
 body {
   width: 500px;
-  height: 100vh;
+
   background-image: url(sfondo.png);
-  font-family: poppins;
+  font-family: "poppins";
   margin-left: auto;
   margin-right: auto;
 }
@@ -13,14 +13,13 @@ header div {
   height: 400px;
   margin: 30px auto;
   background: rgb(110, 195, 254);
-  background: radial-gradient(
-    circle,
-    rgba(110, 195, 254, 0.9752275910364145) 34%,
-    rgba(35, 150, 230, 0.804359243697479) 90%,
-    rgba(228, 228, 228, 0.8379726890756303) 99%
+  background: linear-gradient(
+    0deg,
+    rgba(0, 100, 153, 0.9976365546218487) 1%,
+    rgba(35, 163, 230, 0.9976365546218487) 94%,
+    rgba(110, 195, 254, 0.9528186274509804)
   );
-  box-shadow: 10px 5px 5px gray;
-  border-radius: 10px;
+  box-shadow: 5px 5px 5px gray;
 }
 header div img {
   width: 60%;
@@ -53,7 +52,7 @@ header div li a {
   width: 70%;
   margin: 0 auto;
   background-color: whitesmoke;
-  height: 3000px;
+
   padding: 50px 25px 0;
 }
 /* ELEMENTI NEL MAIN - ARTICLE */
@@ -92,9 +91,21 @@ i {
 }
 #prima-lista li {
   padding-top: 5px;
+  line-height: 1.5em;
+  font-weight: 500;
+}
+#prima-lista span {
+  background-color: darkgray;
+  border-radius: 5px;
+  border: 1px solid gray;
 }
 #paragrafo-2 {
   margin-top: 20px;
+}
+#paragrafo-2 a {
+  overflow: hidden;
+  text-decoration: none;
+  color: darkmagenta;
 }
 #seconda-lista {
   margin-top: 15px;
@@ -105,6 +116,7 @@ i {
 }
 #seconda-lista li {
   padding-top: 5px;
+  line-height: 1.5em;
 }
 #paragrafo-3 {
   margin-top: 20px;
@@ -118,6 +130,7 @@ i {
   width: 100%;
   height: 300px;
 }
+
 #tabella tr {
   text-align: center;
 }
@@ -125,8 +138,21 @@ i {
   background-color: blue;
   color: white;
 }
+#column-2 {
+  border-left: 1px dotted darkgray;
+  border-right: 1px dotted darkgray;
+}
+.tr2-4 {
+  background-color: darkgray;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
 #paragrafo-4 {
   margin-top: 30px;
+}
+#paragrago-4 a {
+  color: darkcyan;
+  overflow: hidden;
 }
 #iframe {
   width: auto;
