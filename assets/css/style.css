@@ -1,144 +1,149 @@
 /* IMPOSTAZIONI GENERALI */
 body {
-    width: 100%;
-    height: 100vh;
-    background-image: url(sfondo.png);
-    font-family: poppins
-    ;
+  width: 500px;
+  height: 100vh;
+  background-image: url(sfondo.png);
+  font-family: poppins;
+  margin-left: auto;
+  margin-right: auto;
 }
 /* HEADER */
- header div{
-    width: 80%;
-    height: 400px;
-    margin: 30px auto;
-    background: rgb(110,195,254);
-background: radial-gradient(circle, rgba(110,195,254,0.9752275910364145) 34%, rgba(35,150,230,0.804359243697479) 90%, rgba(228,228,228,0.8379726890756303) 99%);
-box-shadow: 10px 5px 5px gray;
-border-radius: 10px;
+header div {
+  width: 80%;
+  height: 400px;
+  margin: 30px auto;
+  background: rgb(110, 195, 254);
+  background: radial-gradient(
+    circle,
+    rgba(110, 195, 254, 0.9752275910364145) 34%,
+    rgba(35, 150, 230, 0.804359243697479) 90%,
+    rgba(228, 228, 228, 0.8379726890756303) 99%
+  );
+  box-shadow: 10px 5px 5px gray;
+  border-radius: 10px;
 }
 header div img {
-    width: 60%;
-    margin: 70px 80px 0;
+  width: 60%;
+  margin: 70px 80px 0;
 }
 header div h1 {
-    text-align: center;
-    margin-top: 45px;
-    font-size: 1.5em;
-    font-weight: 700;
-    color: white
+  text-align: center;
+  margin-top: 45px;
+  font-size: 1.5em;
+  font-weight: 700;
+  color: white;
 }
 header div ul {
-    text-align: center;
-    margin-top: 15px;
+  text-align: center;
+  margin-top: 15px;
 }
 header div li {
-    font-size: 1.5em;
-    margin-bottom: 10px;
-    color: white;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: white;
 }
 header div li a {
-    color: white;
-    overflow: hidden;
-    text-decoration: none;
+  color: white;
+  overflow: hidden;
+  text-decoration: none;
 }
 /* MAIN */
 #box {
-    border:1px solid black;
-    width: 70%;
-    margin: 0 auto;
-    background-color: whitesmoke;
-    height: 3000px;
-padding: 50px 25px 0;
+  border: 1px solid black;
+  width: 70%;
+  margin: 0 auto;
+  background-color: whitesmoke;
+  height: 3000px;
+  padding: 50px 25px 0;
 }
 /* ELEMENTI NEL MAIN - ARTICLE */
 
 main div h1 {
-    font-size: 2em;
-    font-weight: bold;
+  font-size: 2em;
+  font-weight: bold;
 }
-#icone-superiori{
-    margin-top: 35px;
+#icone-superiori {
+  margin-top: 35px;
 }
 #icone-superiori i {
-    margin: 0 5px;
+  margin: 0 5px;
 }
-#icone-superiori p,i{
-    color: gray;
+#icone-superiori p,
+i {
+  color: gray;
 }
-#sotto-icone{
-    margin-top: 25px;
+#sotto-icone {
+  margin-top: 25px;
 }
-#sotto-icone a{
-    overflow: hidden;
-    text-decoration: none;
-    color: purple;
+#sotto-icone a {
+  overflow: hidden;
+  text-decoration: none;
+  color: purple;
 }
-#paragrafo-1{
-    margin-top: 20px;
+#paragrafo-1 {
+  margin-top: 20px;
 }
 #prima-lista {
-    margin-top: 15px;
+  margin-top: 15px;
 }
-#prima-lista ul{
-    list-style: disc;
-    padding-left: 25px;
+#prima-lista ul {
+  list-style: disc;
+  padding-left: 25px;
 }
-#prima-lista li{
-    padding-top: 5px;
+#prima-lista li {
+  padding-top: 5px;
 }
-#paragrafo-2{
-    margin-top: 20px;
+#paragrafo-2 {
+  margin-top: 20px;
 }
-#seconda-lista{
-    margin-top: 15px;
+#seconda-lista {
+  margin-top: 15px;
 }
-#seconda-lista ol{
-    list-style: decimal;
-    padding-left: 25px;
+#seconda-lista ol {
+  list-style: decimal;
+  padding-left: 25px;
 }
-#seconda-lista li{
-    padding-top: 5px;
+#seconda-lista li {
+  padding-top: 5px;
 }
-#paragrafo-3{
-    margin-top: 20px;
+#paragrafo-3 {
+  margin-top: 20px;
 }
 /* TABELLE */
-#box-tabella{
-    margin-top: 30px;
+#box-tabella {
+  margin-top: 30px;
 }
 #tabella {
-    border-bottom: 2px solid blue;
-    width: 100%;
-    height: 300px;
+  border-bottom: 2px solid blue;
+  width: 100%;
+  height: 300px;
 }
 #tabella tr {
-    text-align: center;
+  text-align: center;
 }
-#tr1{
-
-    background-color: blue;
-    color: white;
+#tr1 {
+  background-color: blue;
+  color: white;
 }
-#paragrafo-4{
-    margin-top: 30px;
+#paragrafo-4 {
+  margin-top: 30px;
 }
-#iframe{
-    width: auto;
-    margin-top: 25px;
-    border-radius: 2rem;
-    height: 15rem;
+#iframe {
+  width: auto;
+  margin-top: 25px;
+  border-radius: 2rem;
+  height: 15rem;
 }
 /*FORM */
-#box-novità{
-    background-color: gray;
-    margin-top: 30px;
-    height: 15rem;
-    text-align: center;
+#box-novità {
+  background-color: gray;
+  margin-top: 30px;
+  height: 15rem;
+  text-align: center;
 }
 #box-novità h3 {
-padding: 20px 0 40px;
+  padding: 20px 0 40px;
 }
-
 
 /* ELEMENTI NELL' ASIDE */
 
