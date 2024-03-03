@@ -48,18 +48,22 @@ header div li a {
 }
 /* MAIN */
 #box {
-  border: 1px solid black;
   width: 70%;
   margin: 0 auto;
-  background-color: whitesmoke;
-
+  background-color: white;
+  border: 1px solid transparent;
   padding: 50px 25px 0;
+  box-shadow: 0px 3px 10px -2px black;
 }
 /* ELEMENTI NEL MAIN - ARTICLE */
 
-main div h1 {
+h1 {
   font-size: 2em;
   font-weight: bold;
+  line-height: 1.5em;
+}
+p {
+  font-family: "poppins";
 }
 #icone-superiori {
   margin-top: 35px;
@@ -95,9 +99,9 @@ i {
   font-weight: 500;
 }
 #prima-lista span {
-  background-color: darkgray;
+  background-color: #e4e1e3;
   border-radius: 5px;
-  border: 1px solid gray;
+  border: 1px solid darkgray;
 }
 #paragrafo-2 {
   margin-top: 20px;
@@ -126,16 +130,20 @@ i {
   margin-top: 30px;
 }
 #tabella {
-  border-bottom: 2px solid blue;
+  border-bottom: 2px solid #3366cc;
   width: 100%;
   height: 300px;
+  vertical-align: middle;
 }
-
+#tabella caption {
+  font-style: italic;
+  font-weight: 600;
+}
 #tabella tr {
   text-align: center;
 }
 #tr1 {
-  background-color: blue;
+  background-color: #3366cc;
   color: white;
 }
 #column-2 {
@@ -143,9 +151,9 @@ i {
   border-right: 1px dotted darkgray;
 }
 .tr2-4 {
-  background-color: darkgray;
-  border-top: 1px solid gray;
-  border-bottom: 1px solid gray;
+  background-color: #e4e1e3;
+  border-top: 1px solid darkgray;
+  border-bottom: 1px solid darkgray;
 }
 #paragrafo-4 {
   margin-top: 30px;
@@ -153,7 +161,7 @@ i {
   line-height: 1.4em;
 }
 #parafgrago-4 a {
-  color: darkcyan;
+  color: #169cc5;
   overflow: hidden;
 }
 #iframe {
@@ -165,7 +173,7 @@ i {
 /* ELEMENTI NELL' ASIDE */
 /*FORM */
 #box-novità {
-  background-color: gray;
+  background-color: #e4e1e3;
   margin-top: 30px;
   height: 15rem;
   text-align: center;
@@ -183,6 +191,7 @@ i {
 }
 #box-novità input {
   width: 60%;
+  border: none;
   border-bottom: 2px dotted black;
   margin-top: 25px;
   font-size: large;
@@ -190,8 +199,10 @@ i {
 #box-novità button {
   width: 100px;
   font-size: large;
-  background-color: blue;
+  background-color: #3366cc;
   color: white;
+  height: 26px;
+  border: none;
 }
 #articoli-correlati {
   margin-top: 50px;
@@ -201,7 +212,7 @@ i {
   text-align: center;
 }
 .art {
-  background-color: gray;
+  background-color: #e4e1e3;
   border: 1px solid darkgray;
   padding-top: 20px;
   padding-left: 15px;
@@ -211,9 +222,44 @@ i {
 .art p {
   margin-bottom: 5px;
 }
+.art p a {
+  color: #169cc5;
+}
+.art i {
+  margin-right: 5px;
+  color: black;
+}
+
 .data {
   padding-left: 175px;
   padding-top: 30px;
 }
 
 /* FOOTER */
+footer {
+  width: 80%;
+  margin: 2em auto;
+  background: rgb(48, 48, 48);
+  background: linear-gradient(
+    0deg,
+    rgba(48, 48, 48, 1) 0%,
+    rgba(0, 85, 102, 1) 80%
+  );
+  height: 9em;
+  text-align: center;
+  color: white;
+  padding-top: 1em;
+  box-shadow: 0px 3px 10px -2px black;
+}
+#footer-p1 {
+  margin-bottom: 1.5em;
+}
+#footer-p2 {
+  line-height: 1.3em;
+}
+#footer-p3 {
+  padding-top: 0.3em;
+}
+#footer-p3 a {
+  color: #fe02ff;
+}
